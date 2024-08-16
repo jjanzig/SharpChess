@@ -31,6 +31,7 @@ namespace SharpChess.Model
     #region Using
 
     using System;
+    using System.Collections.Generic;
     using System.Globalization;
     using System.Reflection;
     using System.Xml;
@@ -77,7 +78,7 @@ namespace SharpChess.Model
             HashTable.Initialise();
             HashTablePawn.Initialise();
             HashTableCheck.Initialise();
-
+            SetRandomPiecesFor960();
             PlayerWhite = new PlayerWhite();
             PlayerBlack = new PlayerBlack();
             PlayerToPlay = PlayerWhite;
@@ -134,7 +135,7 @@ namespace SharpChess.Model
                     }
                 }
             }
-
+        
             // OpeningBook.BookConvert(Game.PlayerWhite);
         }
 
@@ -224,6 +225,27 @@ namespace SharpChess.Model
                 }
             }
         }
+
+        /// <summary>
+        ///     Informs User is Chess960 Has been delected
+        /// </summary>
+        public static bool IsChess960 { get; set; }
+
+        public static int KingPosition { get; set; }
+
+        public static int QueenPosition { get; set; }
+
+        public static int RookLeftPosition { get; set; }
+
+        public static int RookRightPosition { get; set; }
+
+        public static int BishopWhitePosition { get; set; }
+
+        public static int BishopBlackPosition { get; set; }
+
+        public static int Knight1Position { get; set; }
+
+        public static int Knight2Position { get; set; }
 
         /// <summary>
         ///   Gets or sets the Backup Game Path.
@@ -686,16 +708,16 @@ namespace SharpChess.Model
             ResumePondering();
         }
 
-/*
-        /// <summary>
-        ///   Start normal game.
-        /// </summary>
-        public static void StartNormalGame()
-        {
-            PlayerToPlay.Clock.Start();
-            ResumePondering();
-        }
-*/
+        /*
+                /// <summary>
+                ///   Start normal game.
+                /// </summary>
+                public static void StartNormalGame()
+                {
+                    PlayerToPlay.Clock.Start();
+                    ResumePondering();
+                }
+        */
 
         /// <summary>
         ///   Suspend pondering.
@@ -797,6 +819,81 @@ namespace SharpChess.Model
             xmlnodeMove.SetAttribute("From", move.From.Name);
             xmlnodeMove.SetAttribute("To", move.To.Name);
             xmlnodeMove.SetAttribute("SecondsElapsed", Convert.ToInt32(move.TimeStamp.TotalSeconds).ToString(CultureInfo.InvariantCulture));
+        }
+
+        public static void SetRandomPiecesFor960()
+        {
+            Random random = new Random();
+            List<int> positions = new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7 };
+            bool unplaced = true;
+
+            int pos = (positions[random.Next(positions.Count)]);
+
+
+			RookLeftPosition = pos;
+            positions.Remove(RookLeftPosition);
+
+            Game.RookRightPosition = positions[random.Next(RookLeftPosition + 1, positions.Count)];
+            positions.Remove(RookRightPosition);
+
+            Game.KingPosition = positions[random.Next(RookLeftPosition, RookRightPosition)];
+            positions.Remove(KingPosition);
+
+            while (unplaced)
+            {
+                int placement = positions[random.Next(positions.Count)];
+
+                if (placement % 2 == 0)
+                {
+                    BishopWhitePosition = placement;
+                    positions.Remove(BishopWhitePosition);
+                    unplaced = false;
+                }
+            }
+
+            unplaced = true;
+
+            while (unplaced)
+            {
+                int placement = positions[random.Next(positions.Count)];
+
+                if (placement % 2 != 0)
+                {
+                    BishopBlackPosition = placement;
+                    positions.Remove(BishopBlackPosition);
+                    unplaced = false;
+                }
+            }
+
+            QueenPosition = positions[random.Next(positions.Count)];
+            positions.Remove(QueenPosition);
+
+            Knight1Position = positions[random.Next(positions.Count)];
+            positions.Remove(Knight1Position);
+
+            Knight2Position = positions[random.Next(positions.Count)];
+            positions.Remove(Knight2Position);
+
+
+            //for(int i = 0; i < 100; i++)
+            //{
+            //    int rand1 = random.Next(positions.Count);
+            //    int rand2 = random.Next(positions.Count);
+
+            //    int temp = positions[rand1];
+            //    positions[rand1] = positions[rand2];
+            //    positions[rand2] = temp;
+            //}
+
+            //KingPosition = positions[0];
+            //QueenPosition = positions[1];
+            //RookLeftPosition = positions[2];
+            //RookRightPosition = positions[3];
+            //BishopBlackPosition = positions[4];
+            //BishopWhitePosition = positions[5];
+            //Knight1Position = positions[6];
+            //Knight2Position = positions[7];
+
         }
 
         /// <summary>

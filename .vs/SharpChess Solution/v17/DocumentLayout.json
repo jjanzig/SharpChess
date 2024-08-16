@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|c:\\users\\jjanzig\\source\\repos\\csc260\\sharpchess\\sharpchess.model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|solutionrelative:sharpchess.model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess.model\\playerwhite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|solutionrelative:sharpchess.model\\playerwhite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess.model\\piecerook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|solutionrelative:sharpchess.model\\piecerook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD2F27-6DCB-453C-B018-0AC8D4BC4109}|SharpChess Game\\SharpChess.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess game\\forms\\frmdifficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FD2F27-6DCB-453C-B018-0AC8D4BC4109}|SharpChess Game\\SharpChess.csproj|solutionrelative:sharpchess game\\forms\\frmdifficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FD2F27-6DCB-453C-B018-0AC8D4BC4109}|SharpChess Game\\SharpChess.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess game\\forms\\frmdifficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F5FD2F27-6DCB-453C-B018-0AC8D4BC4109}|SharpChess Game\\SharpChess.csproj|solutionrelative:sharpchess game\\forms\\frmdifficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess.model\\playerblack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|solutionrelative:sharpchess.model\\playerblack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess.model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|solutionrelative:sharpchess.model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\sharpchess.model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE301A37-33A9-4B7A-BE08-D001057610CD}|SharpChess.Model\\SharpChess.Model.csproj|solutionrelative:sharpchess.model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerBlack.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\PlayerBlack.cs",
+              "RelativeDocumentMoniker": "SharpChess.Model\\PlayerBlack.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\PlayerBlack.cs",
+              "RelativeToolTip": "SharpChess.Model\\PlayerBlack.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:26:01.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDifficulty.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess Game\\Forms\\frmDifficulty.cs",
+              "RelativeDocumentMoniker": "SharpChess Game\\Forms\\frmDifficulty.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess Game\\Forms\\frmDifficulty.cs [Design]",
+              "RelativeToolTip": "SharpChess Game\\Forms\\frmDifficulty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T17:30:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmDifficulty.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess Game\\Forms\\frmDifficulty.cs",
+              "RelativeDocumentMoniker": "SharpChess Game\\Forms\\frmDifficulty.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess Game\\Forms\\frmDifficulty.cs",
+              "RelativeToolTip": "SharpChess Game\\Forms\\frmDifficulty.cs",
+              "ViewState": "AQIAAPkCAAAAAAAAAAAlwAcDAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T01:23:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PieceRook.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\PieceRook.cs",
+              "RelativeDocumentMoniker": "SharpChess.Model\\PieceRook.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\PieceRook.cs",
+              "RelativeToolTip": "SharpChess.Model\\PieceRook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T01:02:53.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\Game.cs",
+              "RelativeDocumentMoniker": "SharpChess.Model\\Game.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\Game.cs",
+              "RelativeToolTip": "SharpChess.Model\\Game.cs",
+              "ViewState": "AQIAADADAAAAAAAAAAAYwEkDAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T00:36:17.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\Board.cs",
+              "RelativeDocumentMoniker": "SharpChess.Model\\Board.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\Board.cs",
+              "RelativeToolTip": "SharpChess.Model\\Board.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T00:10:34.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerWhite.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\PlayerWhite.cs",
+              "RelativeDocumentMoniker": "SharpChess.Model\\PlayerWhite.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\PlayerWhite.cs",
+              "RelativeToolTip": "SharpChess.Model\\PlayerWhite.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAtwDIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:57:03.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\Player.cs",
+              "RelativeDocumentMoniker": "SharpChess.Model\\Player.cs",
+              "ToolTip": "C:\\Users\\jjanzig\\source\\repos\\CSC260\\SharpChess\\SharpChess.Model\\Player.cs",
+              "RelativeToolTip": "SharpChess.Model\\Player.cs",
+              "ViewState": "AQIAAG8DAAAAAAAAAAAuwHYDAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T01:26:42.77Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

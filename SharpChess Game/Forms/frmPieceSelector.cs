@@ -167,141 +167,158 @@ namespace SharpChess
         /// </summary>
         private void InitializeComponent()
         {
-            ResourceManager resources = new ResourceManager(typeof(frmPieceSelector));
-            this.picWhiteQueen = new PictureBox();
-            this.picWhiteRook = new PictureBox();
-            this.picWhiteBishop = new PictureBox();
-            this.picWhiteKnight = new PictureBox();
-            this.picBlackKnight = new PictureBox();
-            this.picBlackBishop = new PictureBox();
-            this.picBlackRook = new PictureBox();
-            this.picBlackQueen = new PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPieceSelector));
+            this.picWhiteQueen = new System.Windows.Forms.PictureBox();
+            this.picWhiteRook = new System.Windows.Forms.PictureBox();
+            this.picWhiteBishop = new System.Windows.Forms.PictureBox();
+            this.picWhiteKnight = new System.Windows.Forms.PictureBox();
+            this.picBlackKnight = new System.Windows.Forms.PictureBox();
+            this.picBlackBishop = new System.Windows.Forms.PictureBox();
+            this.picBlackRook = new System.Windows.Forms.PictureBox();
+            this.picBlackQueen = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteQueen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteRook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteBishop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteKnight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackKnight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackBishop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackRook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackQueen)).BeginInit();
             this.SuspendLayout();
-
+            // 
             // picWhiteQueen
-            this.picWhiteQueen.BackColor = System.Drawing.Color.FromArgb(255, 128, 0);
-            this.picWhiteQueen.Image = (System.Drawing.Image)resources.GetObject("picWhiteQueen.Image");
-            this.picWhiteQueen.Location = new Point(0, 0);
+            // 
+            this.picWhiteQueen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picWhiteQueen.Image = ((System.Drawing.Image)(resources.GetObject("picWhiteQueen.Image")));
+            this.picWhiteQueen.Location = new System.Drawing.Point(0, 0);
             this.picWhiteQueen.Name = "picWhiteQueen";
-            this.picWhiteQueen.Size = new Size(42, 42);
+            this.picWhiteQueen.Size = new System.Drawing.Size(67, 61);
             this.picWhiteQueen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picWhiteQueen.TabIndex = 0;
             this.picWhiteQueen.TabStop = false;
             this.picWhiteQueen.Tag = "Queen";
             this.picWhiteQueen.Visible = false;
-            this.picWhiteQueen.Click += new EventHandler(this.picPiece_Click);
-            this.picWhiteQueen.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picWhiteQueen.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picWhiteQueen.Click += new System.EventHandler(this.picPiece_Click);
+            this.picWhiteQueen.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picWhiteQueen.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picWhiteRook
-            this.picWhiteRook.BackColor = System.Drawing.Color.FromArgb(255, 128, 0);
-            this.picWhiteRook.Image = (System.Drawing.Image)resources.GetObject("picWhiteRook.Image");
-            this.picWhiteRook.Location = new Point(40, 0);
+            // 
+            this.picWhiteRook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picWhiteRook.Image = ((System.Drawing.Image)(resources.GetObject("picWhiteRook.Image")));
+            this.picWhiteRook.Location = new System.Drawing.Point(64, 0);
             this.picWhiteRook.Name = "picWhiteRook";
-            this.picWhiteRook.Size = new Size(42, 42);
+            this.picWhiteRook.Size = new System.Drawing.Size(67, 61);
             this.picWhiteRook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picWhiteRook.TabIndex = 1;
             this.picWhiteRook.TabStop = false;
             this.picWhiteRook.Tag = "Rook";
             this.picWhiteRook.Visible = false;
-            this.picWhiteRook.Click += new EventHandler(this.picPiece_Click);
-            this.picWhiteRook.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picWhiteRook.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picWhiteRook.Click += new System.EventHandler(this.picPiece_Click);
+            this.picWhiteRook.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picWhiteRook.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picWhiteBishop
-            this.picWhiteBishop.BackColor = System.Drawing.Color.FromArgb(255, 128, 0);
-            this.picWhiteBishop.Image = (System.Drawing.Image)resources.GetObject("picWhiteBishop.Image");
-            this.picWhiteBishop.Location = new Point(80, 0);
+            // 
+            this.picWhiteBishop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picWhiteBishop.Image = ((System.Drawing.Image)(resources.GetObject("picWhiteBishop.Image")));
+            this.picWhiteBishop.Location = new System.Drawing.Point(128, 0);
             this.picWhiteBishop.Name = "picWhiteBishop";
-            this.picWhiteBishop.Size = new Size(42, 42);
+            this.picWhiteBishop.Size = new System.Drawing.Size(67, 61);
             this.picWhiteBishop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picWhiteBishop.TabIndex = 2;
             this.picWhiteBishop.TabStop = false;
             this.picWhiteBishop.Tag = "Bishop";
             this.picWhiteBishop.Visible = false;
-            this.picWhiteBishop.Click += new EventHandler(this.picPiece_Click);
-            this.picWhiteBishop.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picWhiteBishop.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picWhiteBishop.Click += new System.EventHandler(this.picPiece_Click);
+            this.picWhiteBishop.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picWhiteBishop.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picWhiteKnight
-            this.picWhiteKnight.BackColor = System.Drawing.Color.FromArgb(255, 128, 0);
-            this.picWhiteKnight.Image = (System.Drawing.Image)resources.GetObject("picWhiteKnight.Image");
-            this.picWhiteKnight.Location = new Point(120, 0);
+            // 
+            this.picWhiteKnight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picWhiteKnight.Image = ((System.Drawing.Image)(resources.GetObject("picWhiteKnight.Image")));
+            this.picWhiteKnight.Location = new System.Drawing.Point(192, 0);
             this.picWhiteKnight.Name = "picWhiteKnight";
-            this.picWhiteKnight.Size = new Size(42, 42);
+            this.picWhiteKnight.Size = new System.Drawing.Size(67, 61);
             this.picWhiteKnight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picWhiteKnight.TabIndex = 3;
             this.picWhiteKnight.TabStop = false;
             this.picWhiteKnight.Tag = "Knight";
             this.picWhiteKnight.Visible = false;
-            this.picWhiteKnight.Click += new EventHandler(this.picPiece_Click);
-            this.picWhiteKnight.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picWhiteKnight.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picWhiteKnight.Click += new System.EventHandler(this.picPiece_Click);
+            this.picWhiteKnight.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picWhiteKnight.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picBlackKnight
+            // 
             this.picBlackKnight.BackColor = System.Drawing.Color.Transparent;
-            this.picBlackKnight.Image = (System.Drawing.Image)resources.GetObject("picBlackKnight.Image");
-            this.picBlackKnight.Location = new Point(120, 0);
+            this.picBlackKnight.Image = ((System.Drawing.Image)(resources.GetObject("picBlackKnight.Image")));
+            this.picBlackKnight.Location = new System.Drawing.Point(192, 0);
             this.picBlackKnight.Name = "picBlackKnight";
-            this.picBlackKnight.Size = new Size(42, 42);
+            this.picBlackKnight.Size = new System.Drawing.Size(67, 61);
             this.picBlackKnight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picBlackKnight.TabIndex = 7;
             this.picBlackKnight.TabStop = false;
             this.picBlackKnight.Tag = "Knight";
             this.picBlackKnight.Visible = false;
-            this.picBlackKnight.Click += new EventHandler(this.picPiece_Click);
-            this.picBlackKnight.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picBlackKnight.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picBlackKnight.Click += new System.EventHandler(this.picPiece_Click);
+            this.picBlackKnight.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picBlackKnight.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picBlackBishop
+            // 
             this.picBlackBishop.BackColor = System.Drawing.Color.Transparent;
-            this.picBlackBishop.Image = (System.Drawing.Image)resources.GetObject("picBlackBishop.Image");
-            this.picBlackBishop.Location = new Point(80, 0);
+            this.picBlackBishop.Image = ((System.Drawing.Image)(resources.GetObject("picBlackBishop.Image")));
+            this.picBlackBishop.Location = new System.Drawing.Point(128, 0);
             this.picBlackBishop.Name = "picBlackBishop";
-            this.picBlackBishop.Size = new Size(42, 42);
+            this.picBlackBishop.Size = new System.Drawing.Size(67, 61);
             this.picBlackBishop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picBlackBishop.TabIndex = 6;
             this.picBlackBishop.TabStop = false;
             this.picBlackBishop.Tag = "Bishop";
             this.picBlackBishop.Visible = false;
-            this.picBlackBishop.Click += new EventHandler(this.picPiece_Click);
-            this.picBlackBishop.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picBlackBishop.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picBlackBishop.Click += new System.EventHandler(this.picPiece_Click);
+            this.picBlackBishop.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picBlackBishop.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picBlackRook
+            // 
             this.picBlackRook.BackColor = System.Drawing.Color.Transparent;
-            this.picBlackRook.Image = (System.Drawing.Image)resources.GetObject("picBlackRook.Image");
-            this.picBlackRook.Location = new Point(40, 0);
+            this.picBlackRook.Image = ((System.Drawing.Image)(resources.GetObject("picBlackRook.Image")));
+            this.picBlackRook.Location = new System.Drawing.Point(64, 0);
             this.picBlackRook.Name = "picBlackRook";
-            this.picBlackRook.Size = new Size(42, 42);
+            this.picBlackRook.Size = new System.Drawing.Size(67, 61);
             this.picBlackRook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picBlackRook.TabIndex = 5;
             this.picBlackRook.TabStop = false;
             this.picBlackRook.Tag = "Rook";
             this.picBlackRook.Visible = false;
-            this.picBlackRook.Click += new EventHandler(this.picPiece_Click);
-            this.picBlackRook.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picBlackRook.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picBlackRook.Click += new System.EventHandler(this.picPiece_Click);
+            this.picBlackRook.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picBlackRook.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // picBlackQueen
+            // 
             this.picBlackQueen.BackColor = System.Drawing.Color.Transparent;
-            this.picBlackQueen.Image = (System.Drawing.Image)resources.GetObject("picBlackQueen.Image");
-            this.picBlackQueen.Location = new Point(0, 0);
+            this.picBlackQueen.Image = ((System.Drawing.Image)(resources.GetObject("picBlackQueen.Image")));
+            this.picBlackQueen.Location = new System.Drawing.Point(0, 0);
             this.picBlackQueen.Name = "picBlackQueen";
-            this.picBlackQueen.Size = new Size(42, 42);
+            this.picBlackQueen.Size = new System.Drawing.Size(67, 61);
             this.picBlackQueen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picBlackQueen.TabIndex = 4;
             this.picBlackQueen.TabStop = false;
             this.picBlackQueen.Tag = "Queen";
             this.picBlackQueen.Visible = false;
-            this.picBlackQueen.Click += new EventHandler(this.picPiece_Click);
-            this.picBlackQueen.MouseEnter += new EventHandler(this.picMouseEnter);
-            this.picBlackQueen.MouseLeave += new EventHandler(this.picMouseLeave);
-
+            this.picBlackQueen.Click += new System.EventHandler(this.picPiece_Click);
+            this.picBlackQueen.MouseEnter += new System.EventHandler(this.picMouseEnter);
+            this.picBlackQueen.MouseLeave += new System.EventHandler(this.picMouseLeave);
+            // 
             // frmPieceSelector
-            this.AutoScaleBaseSize = new Size(5, 13);
-            this.BackColor = System.Drawing.Color.FromArgb(229, 197, 105);
-            this.ClientSize = new Size(162, 40);
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(8, 19);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(197)))), ((int)(((byte)(105)))));
+            this.ClientSize = new System.Drawing.Size(259, 63);
             this.Controls.Add(this.picBlackKnight);
             this.Controls.Add(this.picBlackBishop);
             this.Controls.Add(this.picBlackRook);
@@ -316,8 +333,17 @@ namespace SharpChess
             this.Name = "frmPieceSelector";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Promote pawn to?";
-            this.Load += new EventHandler(this.frmPieceSelector_Load);
+            this.Load += new System.EventHandler(this.frmPieceSelector_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteQueen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteRook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteBishop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWhiteKnight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackKnight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackBishop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackRook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackQueen)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         /// <summary>

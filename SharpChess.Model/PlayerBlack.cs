@@ -40,7 +40,16 @@ namespace SharpChess.Model
             this.Colour = PlayerColourNames.Black;
             this.Intellegence = PlayerIntellegenceNames.Computer;
 
-            this.SetPiecesAtStartingPositions();
+            //if (Game.IsChess960)
+            //{
+            //    this.SetPiecesFor960();
+            //}
+            //else
+            //{
+            //    this.SetPiecesAtStartingPositions();
+            //}
+
+            this.SetPiecesFor960();
         }
 
         #endregion
@@ -80,14 +89,14 @@ namespace SharpChess.Model
             }
         }
 
-        #endregion
+		#endregion
 
-        #region Methods
+		#region Methods
 
-        /// <summary>
-        /// The set pieces at starting positions.
-        /// </summary>
-        protected override sealed void SetPiecesAtStartingPositions()
+		/// <summary>
+		/// The set pieces at starting positions.
+		/// </summary>
+		protected override sealed void SetPiecesAtStartingPositions()
         {
             this.Pieces.Add(this.King = new Piece(Piece.PieceNames.King, this, 4, 7, Piece.PieceIdentifierCodes.BlackKing));
 
@@ -110,6 +119,34 @@ namespace SharpChess.Model
             this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 5, 6, Piece.PieceIdentifierCodes.BlackPawn6));
             this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 6, 6, Piece.PieceIdentifierCodes.BlackPawn7));
             this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 7, 6, Piece.PieceIdentifierCodes.BlackPawn8));
+        }
+
+        public override void SetPiecesFor960()
+        {
+            //Random Pieces
+            this.Pieces.Add(this.King = new Piece(Piece.PieceNames.King, this, Game.KingPosition, 0, Piece.PieceIdentifierCodes.BlackKing));
+
+            this.Pieces.Add(new Piece(Piece.PieceNames.Queen, this, Game.QueenPosition, 0, Piece.PieceIdentifierCodes.BlackQueen));
+
+            this.Pieces.Add(new Piece(Piece.PieceNames.Rook, this, Game.RookLeftPosition, 0, Piece.PieceIdentifierCodes.BlackQueensRook));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Rook, this, Game.RookRightPosition, 0, Piece.PieceIdentifierCodes.BlackKingsRook));
+
+            this.Pieces.Add(new Piece(Piece.PieceNames.Bishop, this, Game.BishopWhitePosition, 0, Piece.PieceIdentifierCodes.BlackQueensBishop));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Bishop, this, Game.BishopBlackPosition, 0, Piece.PieceIdentifierCodes.BlackKingsBishop));
+
+            this.Pieces.Add(new Piece(Piece.PieceNames.Knight, this, Game.Knight1Position, 0, Piece.PieceIdentifierCodes.BlackQueensKnight));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Knight, this, Game.Knight2Position, 0, Piece.PieceIdentifierCodes.BlackKingsKnight));
+
+            //Pawns
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 0, 1, Piece.PieceIdentifierCodes.BlackPawn1));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 1, 1, Piece.PieceIdentifierCodes.BlackPawn2));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 2, 1, Piece.PieceIdentifierCodes.BlackPawn3));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 3, 1, Piece.PieceIdentifierCodes.BlackPawn4));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 4, 1, Piece.PieceIdentifierCodes.BlackPawn5));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 5, 1, Piece.PieceIdentifierCodes.BlackPawn6));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 6, 1, Piece.PieceIdentifierCodes.BlackPawn7));
+            this.Pieces.Add(new Piece(Piece.PieceNames.Pawn, this, 7, 1, Piece.PieceIdentifierCodes.BlackPawn8));
+
         }
 
         #endregion
